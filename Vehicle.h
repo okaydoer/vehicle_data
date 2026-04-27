@@ -21,29 +21,4 @@ public:
 	void displayInfo();
 };
 
-class Car : public Vehicle {
-private:
-	int doors;
-	
-public:
-	Car(string, int, int);
-	
-	int getDoors();
-	void setDoors(int);
-	
-	void displayInfo();
-};
-
-class Truck : public Vehicle {
-private:
-	double tow;
-	
-public:
-	Truck(string, int, double);
-	
-	double getTow();
-	void setTow(double);
-	
-	void displayInfo();
-};
-
+#endif
